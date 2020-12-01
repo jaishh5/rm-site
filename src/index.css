@@ -10,10 +10,20 @@ body {
   background-position: center;
 }
 
+.navlink {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: bold;
+}
 
+.navlink:hover {
+  color: #fff;
+}
 
-footer {
-    background-color: black;
+.footer {
+  padding-top: 30px;
+  background-color: black;
 }
 
 .fa-facebook {
