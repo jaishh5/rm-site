@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './header.js';
+import About from './aboutComponent.js';
+import Contact from './contactComponent'
 import Footer from './footer.js';
 
 function Home(){
@@ -8,6 +10,8 @@ function Home(){
 			<div className="header">
 				<Header />
 			</div>
+			<About />
+			<Contact />
 			<Footer />
 		</div>
 	)
