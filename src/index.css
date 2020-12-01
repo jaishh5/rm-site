@@ -3,11 +3,14 @@ body {
 	color: white;
 }
 
-.header {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./bg_main.jpg');
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+/*.bg-dark{
+  background: transparent !important;
+  transition: 0.5s ease-out;
+}*/
+
+.bg-black {
+  background: black;
+  transition: 0.5s ease-in;
 }
 
 .navlink {
@@ -19,6 +22,15 @@ body {
 
 .navlink:hover {
   color: #fff;
+}
+
+
+
+.header {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./bg_main.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer {
