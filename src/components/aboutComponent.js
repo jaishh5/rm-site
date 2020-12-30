@@ -3,9 +3,9 @@ import { Container } from 'reactstrap';
 
 function About(){
 	return(
-		<div style={{ paddingTop: "50px", paddingBottom: '50px' , backgroundColor: '#f5f5f5' }}>
+		<div id="about" style={{ paddingTop: "50px", paddingBottom: '50px' , backgroundColor: '#f5f5f5' }}>
 			<Container>
-        <div className="wed-card is-visible" style={{paddingTop: "50px", paddingBottom: "45px", backgroundColor: 'white'}}>
+        <div className="about is-visible" style={{paddingTop: "50px", paddingBottom: "45px", backgroundColor: 'white'}}>
           <div className="show-on-scroll">
             <h3 style={{fontSize: "40px"}}>ABOUT US</h3>
             <div className="card-line ml-auto mr-auto"></div>

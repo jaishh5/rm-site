@@ -7,11 +7,13 @@ import Footer from './footer.js';
 function Home(){
 	return (
 		<div>
-			<div className="header">
+			<div className="header" id="header">
 				<Header />
 			</div>
-			<About />
-			<Contact />
+				<About />
+			
+				<Contact />
+		
 			<Footer />
 		</div>
 	)

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Form, FormGroup, Row } from 'reactstrap';
+import { Container, Form, Row } from 'reactstrap';
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
 			<Container>
 				<div style={{paddingTop: '50px', paddingBottom: '50px'}}>
 					<h1>CONTACT US</h1>

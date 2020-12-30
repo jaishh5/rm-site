@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
+import { Link } from 'react-scroll'
 import './dropdown.css';
 import { useDetectOutsideClick } from './useDetectOutsideClick';
 
@@ -23,13 +24,13 @@ const Header = (props) => {
 	            <a href="/" className="navlink nav-link">HOME</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/" className="navlink nav-link">ABOUT</a>
+							<Link className="navlink nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={1000}>ABOUT</Link>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/" className="navlink nav-link">WORK</a>
+	            <a href="/work" className="navlink nav-link">WORK</a>
 	          </NavItem>
 	        	<NavItem className="mx-auto navlink">
-	            <a href="/" className="navlink nav-link">COMPETITIONS</a>
+	            <a href="/competition" className="navlink nav-link">COMPETITIONS</a>
 	          </NavItem>
 	        </Nav>
 				</Collapse>
@@ -42,7 +43,7 @@ const Header = (props) => {
 							<nav ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
 								<ul>
 									<li><a href="/team">CURRENT TEAM</a></li>
-									<li><a href="/">OUR ALUMNI</a></li>
+									<li><a href="/alumni">OUR ALUMNI</a></li>
 								</ul>
 							</nav>
 	          </NavItem>
@@ -50,10 +51,10 @@ const Header = (props) => {
 	            <a href="/" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/" className="navlink nav-link">SPONSORS</a>
+	            <a href="/sponsor" className="navlink nav-link">SPONSORS</a>
 	          </NavItem>
 	        	<NavItem className="mx-auto navlink">
-	            <a href="/" className="navlink nav-link">CONTACT</a>
+							<Link className="navlink nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={1000}>CONTACT</Link>
 	          </NavItem>
 	        </Nav>
 				</Collapse>
