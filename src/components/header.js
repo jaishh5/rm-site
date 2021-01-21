@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState,  useRef } from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 import { Link } from 'react-scroll'
 import './dropdown.css';
@@ -7,7 +7,6 @@ import { useDetectOutsideClick } from './useDetectOutsideClick';
 const Header = (props) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const toggle = () => setIsOpen(!isOpen);
-	const [bgColor, setbgColor] = useState('bg-black navbar-dark');
 
 	const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
@@ -15,16 +14,16 @@ const Header = (props) => {
 
 	return (
 		<div>
-			<Navbar expand="md" fixed="top" className={bgColor}>
-				<a href="/" className="navbar-brand order-md-1 mx-auto" style={{paddingRight: '1rem'}}><img alt="logo" id="logo" src="./assets/images/logo2.jpg" style={{height: 50}}></img></a>
-				<NavbarToggler onClick={toggle}></NavbarToggler>
-				<Collapse isOpen={isOpen} navbar className="order-md-0">
+			<Navbar expand="xl" fixed="top" className="bg-black navbar-dark" style={{ fontFamily: 'Montserrat-Bold'}}>
+				<a href="/" className="navbar-brand order-xl-0 mx-auto" style={{padding: '1rem'}}><img alt="logo" id="logo" src="./assets/images/logo2.jpg" style={{height: 50}}></img></a>
+				<NavbarToggler onClick={toggle} style={{color: 'white'}}></NavbarToggler>
+				<Collapse isOpen={isOpen} navbar className="order-xl-1">
 					<Nav className="ml-auto" navbar>
 	          <NavItem className="mx-auto navlink">
 	            <a href="/" className="navlink nav-link">HOME</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-							<Link className="navlink nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={1000}>ABOUT</Link>
+							<Link className="navlink nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={1000}>ABOUT</Link>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
 	            <a href="/work" className="navlink nav-link">WORK</a>
@@ -34,7 +33,7 @@ const Header = (props) => {
 	          </NavItem>
 	        </Nav>
 				</Collapse>
-				<Collapse isOpen={isOpen} navbar className="order-md-2">
+				<Collapse isOpen={isOpen} navbar className="order-xl-2">
 					<Nav className="mr-auto" navbar>
 	          <NavItem className="mx-auto navlink menu-container">
 	            <button onClick={onClick} href="/" className="navlink nav-link menu-trigger">
@@ -48,13 +47,13 @@ const Header = (props) => {
 							</nav>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/" className="navlink nav-link">GALLERY</a>
+	            <a href="/gallery" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/sponsor" className="navlink nav-link">SPONSORS</a>
+	            <Link className="navlink nav-link" activeClass="active" to="sponsor1" spy={true} smooth={true} offset={-100} duration={1000}>SPONSORS</Link>
 	          </NavItem>
 	        	<NavItem className="mx-auto navlink">
-							<Link className="navlink nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={1000}>CONTACT</Link>
+							<Link className="navlink nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-98} duration={1000}>CONTACT</Link>
 	          </NavItem>
 	        </Nav>
 				</Collapse>

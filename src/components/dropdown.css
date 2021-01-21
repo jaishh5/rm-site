@@ -6,7 +6,7 @@
 }
 
 .menu-trigger {
-  background: black;
+  background-color : rgba(0, 0, 0, 0);
   cursor: pointer;
   display: flex;
   border: none;

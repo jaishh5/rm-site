@@ -1,32 +1,43 @@
-import React from 'react';
-import { Container } from 'reactstrap';
+import React from 'react'
+import { Container, Row } from 'reactstrap';
 
-function About(){
-	return(
-		<div id="about" style={{ paddingTop: "50px", paddingBottom: '50px' , backgroundColor: '#f5f5f5' }}>
+const About = () => {
+  return (
+    <div className="about">
 			<Container>
-        <div className="about is-visible" style={{paddingTop: "50px", paddingBottom: "45px", backgroundColor: 'white'}}>
-          <div className="show-on-scroll">
-            <h3 style={{fontSize: "40px"}}>ABOUT US</h3>
-            <div className="card-line ml-auto mr-auto"></div>
-            <p style={{fontSize: "18px"}}>
-							RoboManipal is the official robotics team of MIT, Manipal. Initiated back in 2009 with the sole objective of
-							participating in Asia’s largest robotics competition -ABU Robocon, we have since diversified into various
-							other competitions and research avenues. We are a group of robotics enthusiasts from diverse engineering
-							backgrounds who constantly strive to solve relevant, real world problems using artificial intelligence and
-							robotic mechanisms. Our team comprises of the Coding, Electronics, Mechanical and Management
-							subsystems which work in tandem to build working, usable bots.
-            </p>
-						<p style={{fontSize: "18px"}}>
-							Apart from building robots we also spread knowledge of robotics and its diverse applications in the form of
-            	workshops and intra-college competitions. One of the flagship crowd-drawing events of MIT’s technical fest
-            	TechTatva, ‘RoboWars’ is also organized by our team.
-            </p>
-          </div>
-        </div>
+				<div className="col-md-4">
+					<img className="aboutimg" src="./assets/images/about1.jpg" style={{ float: 'left', height: '80vh' }}/>	
+				</div>
+				<div className=" col-12 col-md-6" style={{ float: 'right', textAlign: 'center' }}>
+					<Row className=" justify-content-center abouthead" style={{ paddingTop: '50px' }}>
+						<span></span>  
+						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   ABOUT US   </h3>
+						<span></span>
+					</Row>
+					<p style={{ fontFamily: 'Montserrat' }}>
+						Team RoboManipal is the official robotics a student project of Manipal Institute of Technology.
+						The team is embraced by sedulous members who constantly aim to achieve innovation through robotic technology to present
+						themselves at various competitions. We are a group of coding, mechanical, electronics, advanced robotic research, 
+						and management aficionados who work unitedly for what we “dream, build, and achieve.”
+					</p>
+					<p style={{ fontFamily: 'Montserrat' }}>
+						We also drive towards Research and Development for the betterment of society. The team has been in the progress of 
+						greater triumph since 2009. The legacy of 11 years to have won laurels at many levels is a testament to our enthusiasm.  
+						We participate in prestigious competitions like ABU ROBOCON – Asia’s biggest robotic competition. We are proud to mark 
+						ourselves in the competition over the years. Robowars- the most alluring event of Techtatva is a constituent of RoboManipal.
+					</p>
+					<Row className=" justify-content-center visionhead" style={{ paddingTop: '30px', alignItems: 'center' }}>
+						<span></span>  
+						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   VISION AND MISSION   </h3>
+						<span></span>
+					</Row>
+					<p style={{ paddingBottom: '30px', fontFamily: 'Montserrat' }}>
+						Our innovation starts with a DREAM to elucidate problems as we BUILD solutions to ACHIEVE the limitless.
+					</p>
+				</div>
 			</Container>
 		</div>
-	)
+  )
 }
 
 export default About;

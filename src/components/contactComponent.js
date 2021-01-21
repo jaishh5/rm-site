@@ -1,59 +1,49 @@
 import React from 'react'
-import { Container, Form, Row } from 'reactstrap';
+import { Form, Row } from 'reactstrap';
 
-function Contact() {
+function Test() {
   return (
-    <div className="contact" id="contact">
-			<Container>
-				<div style={{paddingTop: '50px', paddingBottom: '50px'}}>
-					<h1>CONTACT US</h1>
-					<Row style={{paddingTop: '20px'}}>
-						<div className="col-8 col-md-2 offset-md-4 offset-3">
-							<Form>
-								<div className="form-group row">
-									<input type="text" placeholder="Name" />
-								</div>
-								<div className="form-group row">
-									<input type="email" placeholder="Email" />
-								</div>
-								<div className="form-group row">
-									<input type="text" placeholder="Subject" />
-								</div>
-								<div className="form-group row">
-									<textarea rows="4" placeholder="Comments" />
-								</div>
-								<div className="form-group row">
-									<button type="submit" className="btn btn-dark offset-2">
-										SUBMIT
-									</button>
-								</div>
-							</Form>
-						</div>
-						<div className="col-8 col-md-3 offset-md-0 contactcomp">
-							<h5>
-								Mukund Kumar Menon <br></br>
-								<small>Faculty Advisor</small>
-							</h5>
-							<h5>
-          			Kaustubh Kuvalekar <br></br>
-          			<small>Team Leader</small>
-        			</h5>
-							<address>
-          			<br></br>
-          			<strong>Team RoboManipal</strong> <br></br>
-          			MAHE Automobile Workshop <br></br>
-          			Outside Kamath Circle <br></br>
-          			Eshwar Nagar, Manipal <br></br>
-          			Karnataka-576104 <br></br>
-          			<i class="fa fa-envelope fa-lg"></i> : 
-          			<a href="mailto:team.robomanipal@gmail.com">team.robomanipal@gmail.com</a>
-        			</address>
-						</div>
-					</Row>
+    <div className="contact" >
+			<div className="col-12 col-md-7 form" style={{ textAlign: 'center' }}>
+				<Row className=" justify-content-center contacthead" style={{ paddingTop: '30px' }}>
+					<span></span>  
+					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   CONTACT US   </h3>
+					<span></span>
+				</Row>
+				<form style={{ paddingTop: '30px', color: 'white' }}>
+					<input type="text" name="name" className="feedback-input" placeholder="Name" required />
+					<input type="email" name="email" className="feedback-input" placeholder="Email" required />
+					<input type="text" name="subject" className="feedback-input" placeholder="Subject" />
+					<textarea name="message" rows="5" className="feedback-input" placeholder="Message"></textarea> <br/>
+					<input type="submit" value="SUBMIT" className="feedback-input submit" />
+				</form>
+			</div>
+			<div className="col-12 col-md-5 offset-md-7 contactinfo" style={{ height: '90vh', fontFamily: 'Montserrat' }}>
+				<div style={{ margin: 'auto', height: '50%', width: '70%', padding: '50px' }}>
+					<div>
+						<i class="fa fa-user contacticon"> </i> <span>  TEAM LEADER </span>
+					</div>
+					<div>
+						<i class="fa fa-map-marker contacticon">
+          		
+						</i> <span>Team RoboManipal <br/>
+          		MAHE Automobile Workshop <br/>
+          		Outside Kamath Circle <br/>
+          		Eshwar Nagar, Manipal <br/>
+          		Karnataka-576104 </span> <br/>
+					</div>
+					<div>
+						<i class="fa fa-phone contacticon"></i> <span> 90081 47494</span> <br/> 
+					</div>
+					<div>
+						<i class="fa fa-envelope contacticon">
+          		
+						</i><a href="mailto:team.robomanipal@gmail.com" style={{ textDecoration: 'none', color: 'black' }}> TEAM.ROBOMANIPAL@</a>
+					</div>
 				</div>
-			</Container>
+			</div>
     </div>
   )
 }
 
-export default Contact;
+export default Test;

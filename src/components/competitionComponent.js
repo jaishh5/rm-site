@@ -5,24 +5,47 @@ import Footer from './footer.js'
 
 function Competition() {
   return (
-		<div className="competition">
+		<div>
 			<Header />
-			<Row className="justify-content-center" style={{ paddingTop: '100px' }}>
-				<h1>COMPETITIONS</h1>
-			</Row>
-			<Container style={{ paddingBottom: '40px' }}>
-				<div className="col-12 col-md-8" style={{ margin: '0 auto' }}>
-					<h2 style={{ paddingTop: '20px', textAlign: 'center' }}>ABOUT ABU ROBOCON</h2>
-					<p>The ABU Asia-Pacific Robot Contest is a competition in which robots compete to complete a challenging task within a set period of time.This year Robocon had ‘ROBO RUGBY’ as the contest theme.The competition has two stages and our team successfully qualified Stage 1 which is a video submission round and was among top 100 teams all over India.</p>
-					<ul>
-						<li>Different achievements in the event will be listed here</li>
-					</ul>
-					<h2 style={{ textAlign: 'center' }}>ABOUT IICDC</h2>
-					<p>IICDC (India Innovation Challenge Design Contest) is a national innovation contest wherein teams participate to create a new innovative product using TI components.The competition has three rounds - Quarterfinals, Semi-finals and the Finals.</p> 
-					<ul>
-						<li>Achievements in the Event.</li>
-					</ul>
-				</div>
+			<div className="comphead">
+				<Row className="justify-content-center pagehead" style={{ alignItems: 'center' }}>
+					<span></span>  
+					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   COMPETITIONS   </h3>
+					<span></span>
+				</Row>
+			</div>
+			<Container>
+				<Row className="comp">
+					<div class="col-lg-4 col-sm-12 mx-auto">
+						<img src="assets/images/robocon.jpg" alt="Robocon" />
+					</div>
+					<div class="col-lg-8 col-sm-12 compinfo">
+						<h4 style={{ fontFamily: 'Montserrat-Bold' }}>ABU ROBOCON</h4>
+						<p>The annual international Robotics competition organised by Asia - Pacific Broadcasting Union, ABU ROBOCON calls for 
+							multiple robots to work in synchrony in a given arena to finish a predefined task in a stipulated period of time. Founded 
+							in 2002 the competition has become among the largest, most competitive and reputed robotics competitions in the world. 
+							Each year Robocon releases a problem statement that forces the teams to think laterally and come up with innovative and 
+							efficient solutions. 
+						</p>
+						<strong>- AIR 9 in ROBOCON 2016</strong> <br/>
+						<strong>- QUALIFIED FOR STAGE 2 OF ROBOCON 2020</strong>
+					</div>
+				</Row>
+				<Row className="comp" style={{ paddingBottom: '50px'}}>
+					<div class="col-lg-4 col-sm-12">
+						<img src="assets/images/wro.jpg" alt="WRO" />
+					</div>
+					<div class="col-lg-8 col-sm-12 compinfo">
+						<h4 style={{ fontFamily: 'Montserrat-Bold' }}>WORLD ROBOTICS OLYMPIAD (WRO)</h4>
+						<p>World Robot Olympiad India (WRO India) is one of the largest Robotics competition in India for students between the age group 
+							of 6 to 19 years, held since 2006. It is a not-for-profit competition organised by India STEM Foundation.It is an event for 
+							science, technology and education which brings together the young people all over the world to develop their creativity and 
+							problem solving skills through challenging and educational robotics competitions.We take up the engineering challenge for college 
+							and university students.
+						</p>
+						<strong>- AIR 2 in WRO 2018</strong>
+					</div>
+				</Row>
 		 	</Container>
 			<Footer />
 		</div>
