@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/jaishh5/rm-site/issues"
   },
-  "homepage": "https://github.com/jaishh5/rm-site#readme",
+  "homepage": "https://github.com/jaishh5/rm-site",
   "dependencies": {
     "body-parser": "^1.19.0",
     "colors": "^1.4.0",
