@@ -33,7 +33,7 @@
 .headerimg {
   width: 30%;
   float: right;
-  
+
 }
 
 .abouthead {
@@ -54,7 +54,6 @@
 
 .about {
   background-image: url('./about.png');
-  height: 110vh;
   background-size: cover;
   background-position: center;
 }
@@ -375,21 +374,17 @@
   .comp img {
     margin-left: 50px;
   }
-
-  .about {
-    height: 140vh;
-  }
 }
 
 @media screen and (max-width: 767px) {
   .headerimg {
     margin: 0 auto;  
     float: none;
-    width: 30%;
+    width: 50%;
   }
 
   .about {
-    height: 120vh;
+    height: 140vh;
   }
   
   .aboutimg {
@@ -473,6 +468,16 @@
   }
 }
 
+@media (max-width: 1199px) {
+  .aboutimg {
+    display: none;
+  }
+
+  .about {
+    height: 80vh;
+  }
+}
+
 @media (min-width: 768px), (max-width: 1199) {
   .pagehead span {
     width: 40vw;
@@ -482,5 +487,8 @@
 @media screen and (min-width: 1200px) {
   .pagehead span {
     width: 40vw;
+  }
+  .about {
+    height: 105vh;
   }
 }

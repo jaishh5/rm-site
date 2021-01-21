@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="about">
 			<Container>
-				<div className="col-md-4">
+				<div className="col-xl-4">
 					<img className="aboutimg" src="./assets/images/about1.jpg" style={{ float: 'left', height: '80vh' }}/>	
 				</div>
-				<div className=" col-12 col-md-6" style={{ float: 'right', textAlign: 'center' }}>
+				<div className=" col-12 col-xl-6" style={{ float: 'right', textAlign: 'center' }}>
 					<Row className=" justify-content-center abouthead" style={{ paddingTop: '50px' }}>
 						<span></span>  
 						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   ABOUT US   </h3>
