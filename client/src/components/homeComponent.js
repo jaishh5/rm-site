@@ -11,7 +11,8 @@ function Home(){
 		<div>
 			<div className="header" id="header">
 				<Header />
-				<div className="headerimg">
+				<div className="headerimg" style={{ position: 'absolute', width: '100%', height: '100%' }}>
+					<img src="assets/images/rm_logo.png" alt="RM Logo" />
 				</div>
 			</div>
 			<About />	

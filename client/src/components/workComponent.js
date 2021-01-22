@@ -18,7 +18,7 @@ function Work() {
 				<Row style={{ paddingTop: '30px' }}>
 					<div className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/electromyography.jpg" />
+							<img src="assets/images/work/electromyography.jpg" alt="Electro" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>ELECTROMYOGRAPHY</h6>
@@ -34,7 +34,7 @@ function Work() {
 					</div>
 					<div className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/gurney.jpg" />
+							<img src="assets/images/work/gurney.jpg" alt="Gurney" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>POWER ASSISTED GURNEY</h6>
@@ -50,7 +50,7 @@ function Work() {
 					</div>
 					<div className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/homeautomation.jpg" />
+							<img src="assets/images/work/homeautomation.jpg" alt="Automation" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>SMART HOME AUTOMATION</h6>
@@ -68,7 +68,7 @@ function Work() {
 				<Row style={{ paddingTop: '50px' }}>
 					<div className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/waterfilter.jpg" />
+							<img src="assets/images/work/waterfilter.jpg" alt="Filter" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>ATOMIZED CLEANING WATER DISPENSER</h6>
@@ -85,7 +85,7 @@ function Work() {
 					</div>
 					<div className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/choppercircuit.png" />
+							<img src="assets/images/work/choppercircuit.png" alt="Circuit" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>CHOPPER CIRCUIT</h6>
@@ -101,7 +101,7 @@ function Work() {
 					</div>
 					<div className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/smartbot.png" />
+							<img src="assets/images/work/smartbot.png" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>SMART BOT</h6>
@@ -121,7 +121,7 @@ function Work() {
 				<Row style={{ paddingTop: '50px' }}>
 					<div className="col-12 col-md-4 project mx-auto">
 						<div className="inner mx-auto">
-							<img src="assets/images/smartbot.png" />
+							<img src="assets/images/work/biped.jpeg" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>HUMANOID ROBOT (BIPED)</h6>
@@ -135,7 +135,7 @@ function Work() {
 						</div>
 					<div className="col-12 col-md-4 project mx-auto">
 						<div className="inner mx-auto">
-							<img src="assets/images/smartbot.png" />
+							<img src="assets/images/work/quadruped.jpeg" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>QUADRUPED</h6>
