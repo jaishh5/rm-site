@@ -6,8 +6,22 @@ var cors = require('cors');
 const path = require('path');
 const dotenv = require('dotenv');
 
+const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://shrouded-journey-38552.heroku...]
+const corsOptions = {
+  origin: function (origin, callback) {
+    console.log("** Origin of request " + origin)
+    if (whitelist.indexOf(origin) !== -1 || !origin) {
+      console.log("Origin acceptable")
+      callback(null, true)
+    } else {
+      console.log("Origin rejected")
+      callback(new Error('Not allowed by CORS'))
+    }
+  }
+}
 
 dotenv.config({path:'./config/config.env'});
+
 
 var transport={
   service: 'gmail',
@@ -57,18 +71,18 @@ router.post('/send',(req,res,next)=>{
 })
 
 const app = express()
-app.use(cors())
+app.use(cors(corsOptions))
 app.use(express.json())
 app.use('/',router)
-app.listen(3002)
+app.listen(8080)
 
 if(process.env.NODE_ENV==='development'){
   app.use(morgan('dev'));
 }
 
 if(process.env.NODE_ENV==='production'){
-  app.use(express.static('client/build'));
+  app.use(express.static(path.join(__dirname, 'client/build')));
 
-  app.get('*',(req,res)=>res.sendFile(path.resolve(__dirname,'client','build','index.html')));
+  app.get('*', (req,res) => res.sendFile(path.join(__dirname,'client/build','index.html')));
 }
 
