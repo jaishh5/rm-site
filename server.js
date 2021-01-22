@@ -6,7 +6,7 @@ var cors = require('cors');
 const path = require('path');
 const dotenv = require('dotenv');
 
-const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://shrouded-journey-38552.heroku...]
+const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://intense-springs-65918.herokuapp.com/']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
