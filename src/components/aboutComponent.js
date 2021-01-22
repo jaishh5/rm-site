@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container, Row } from 'reactstrap';
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 
 const About = () => {
+
+	useEffect(() => {
+		Aos.init({ duration: 1000 });
+	}, []);
+
   return (
     <div className="about">
 			<Container>
-				<div className="col-xl-4">
-					<img className="aboutimg" src="./assets/images/about1.jpg" style={{ float: 'left', height: '80vh' }}/>	
+				<div data-aos="fade-down" className="col-xl-4">
+					<img className="aboutimg" src="./assets/images/about1.jpg" alt="Robo_portrait" style={{ float: 'left', height: '80vh' }}/>	
 				</div>
-				<div className=" col-12 col-xl-6" style={{ float: 'right', textAlign: 'center' }}>
+				<div data-aos="fade-right" className=" col-12 col-xl-6" style={{ float: 'right', textAlign: 'center' }}>
 					<Row className=" justify-content-center abouthead" style={{ paddingTop: '50px' }}>
 						<span></span>  
 						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   ABOUT US   </h3>

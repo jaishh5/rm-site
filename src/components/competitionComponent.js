@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container, Row } from 'reactstrap'
 import Header from './header.js'
 import Footer from './footer.js'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Competition() {
+
+	useEffect(() => {
+		Aos.init({ duration: 1500 });
+	}, []);
+
   return (
 		<div>
 			<Header />
@@ -16,10 +23,10 @@ function Competition() {
 			</div>
 			<Container>
 				<Row className="comp">
-					<div class="col-lg-4 col-sm-12 mx-auto">
+					<div data-aos="fade-down" class="col-lg-4 col-sm-12 mx-auto">
 						<img src="assets/images/robocon.jpg" alt="Robocon" />
 					</div>
-					<div class="col-lg-8 col-sm-12 compinfo">
+					<div data-aos="fade-right" class="col-lg-8 col-sm-12 compinfo">
 						<h4 style={{ fontFamily: 'Montserrat-Bold' }}>ABU ROBOCON</h4>
 						<p>The annual international Robotics competition organised by Asia - Pacific Broadcasting Union, ABU ROBOCON calls for 
 							multiple robots to work in synchrony in a given arena to finish a predefined task in a stipulated period of time. Founded 
@@ -32,10 +39,10 @@ function Competition() {
 					</div>
 				</Row>
 				<Row className="comp" style={{ paddingBottom: '50px'}}>
-					<div class="col-lg-4 col-sm-12">
+					<div data-aos="fade-right" class="col-lg-4 col-sm-12">
 						<img src="assets/images/wro.jpg" alt="WRO" />
 					</div>
-					<div class="col-lg-8 col-sm-12 compinfo">
+					<div data-aos="fade-left" class="col-lg-8 col-sm-12 compinfo">
 						<h4 style={{ fontFamily: 'Montserrat-Bold' }}>WORLD ROBOTICS OLYMPIAD (WRO)</h4>
 						<p>World Robot Olympiad India (WRO India) is one of the largest Robotics competition in India for students between the age group 
 							of 6 to 19 years, held since 2006. It is a not-for-profit competition organised by India STEM Foundation.It is an event for 

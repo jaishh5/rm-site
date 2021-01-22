@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container, Row } from 'reactstrap'
 import Header from './header.js'
 import Footer from './footer.js'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Work() {
+
+	useEffect(() => {
+		Aos.init({ duration: 1500 });
+	}, []);
+
   return (
     <div>
 			<Header />
@@ -16,7 +23,7 @@ function Work() {
 			</div>
 			<Container style={{ paddingBottom: '50px', paddingTop: '50px' }}>
 				<Row style={{ paddingTop: '30px' }}>
-					<div className="col-12 col-md-4 project">
+					<div data-aos="fade-right" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
 							<img src="assets/images/work/electromyography.jpg" alt="Electro" />
 							<div className="overlay">
@@ -32,7 +39,7 @@ function Work() {
 						</div>
 						<h5>ELECTROMYOGRAPHY</h5>
 					</div>
-					<div className="col-12 col-md-4 project">
+					<div data-aos="fade-down" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
 							<img src="assets/images/work/gurney.jpg" alt="Gurney" />
 							<div className="overlay">
@@ -48,7 +55,7 @@ function Work() {
 						</div>
 						<h5>POWER ASSISTED GURNEY</h5>
 					</div>
-					<div className="col-12 col-md-4 project">
+					<div data-aos="fade-left" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
 							<img src="assets/images/work/homeautomation.jpg" alt="Automation" />
 							<div className="overlay">
@@ -66,7 +73,7 @@ function Work() {
 					</div>
 				</Row>
 				<Row style={{ paddingTop: '50px' }}>
-					<div className="col-12 col-md-4 project">
+					<div data-aos="fade-right" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
 							<img src="assets/images/work/waterfilter.jpg" alt="Filter" />
 							<div className="overlay">
@@ -83,7 +90,7 @@ function Work() {
 						</div>
 						<h5>ATOMIZED CLEANING WATER DISPENSER</h5>
 					</div>
-					<div className="col-12 col-md-4 project">
+					<div data-aos="fade-up" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
 							<img src="assets/images/work/choppercircuit.png" alt="Circuit" />
 							<div className="overlay">
@@ -99,9 +106,9 @@ function Work() {
 						</div>
 						<h5>CHOPPER CIRCUIT</h5>
 					</div>
-					<div className="col-12 col-md-4 project">
+					<div data-aos="fade-left" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/smartbot.png" />
+							<img src="assets/images/work/smartbot.png" alt="Smartbot" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>SMART BOT</h6>
@@ -119,9 +126,9 @@ function Work() {
 				</Row>
 				<h2 style={{ textAlign: 'center', fontFamily: 'Montserrat-Bold', paddingTop: '70px' }}>FUTURE PROJECTS</h2>
 				<Row style={{ paddingTop: '50px' }}>
-					<div className="col-12 col-md-4 project mx-auto">
+					<div data-aos="fade-down" className="col-12 col-md-4 project mx-auto">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/biped.jpeg" />
+							<img src="assets/images/work/biped.jpeg" alt="Biped" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>HUMANOID ROBOT (BIPED)</h6>
@@ -133,9 +140,9 @@ function Work() {
 						</div>
 						<h5>HUMANOID ROBOT (BIPED)</h5>
 						</div>
-					<div className="col-12 col-md-4 project mx-auto">
+					<div data-aos="fade-down" className="col-12 col-md-4 project mx-auto">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/quadruped.jpeg" />
+							<img src="assets/images/work/quadruped.jpeg" alt="Quadruped" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>QUADRUPED</h6>

@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container, Row } from 'reactstrap'
 import Header from './header.js'
 import Footer from './footer.js'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Team() {
+
+	useEffect(() => {
+		Aos.init({ duration: 1000 });
+	}, []);
+
   return (
     <div>
       <Header />
@@ -15,7 +22,7 @@ function Team() {
 				</Row>
 			</div>
 			<Row className="container" style={{ textAlign: 'center', margin: '0 auto', paddingBottom: '30px', paddingTop: '15px', fontFamily: 'Montserrat' }}>
-				<div className="domain mx-auto">
+				<div data-aos="fade-down" className="domain mx-auto">
 					<h5>Mechanical</h5>
 					<p><i>"No TECH without <strong>MECH</strong>."</i></p>
 					<p>
@@ -24,7 +31,7 @@ function Team() {
 						for other mechanisms and experiments, including real-time testing, simulation, and analysis.
 					</p>
 				</div>
-				<div className="domain mx-auto">
+				<div data-aos="fade-down" className="domain mx-auto">
 					<h5>Electronics</h5>
 					<p><i>
 						"You can involve yourself in electronics, computers, puzzles... there's a lot of creativity and brain working. 
@@ -36,7 +43,7 @@ function Team() {
 						circuits.
 					</p>
 				</div>
-				<div className="domain mx-auto">
+				<div data-aos="fade-down" className="domain mx-auto">
 					<h5>Coding</h5>
 					<p><i>"Everybody should learn to program a computer because it teaches you how to think."</i></p>
 					<p>Programming is an essential part when it comes to handling robots. Our coding subsystem links the electronics and mechanical 
@@ -45,7 +52,7 @@ function Team() {
 						processes for reliable control systems.
 					</p>
 					</div>
-					<div className="domain mx-auto">
+					<div data-aos="fade-down" className="domain mx-auto">
 						<h5>Advanced Robotics Research</h5>
 						<p><i>"There is an endless number of things to discover about robotics. A lot of it is just too fantastic for people to believe."</i></p>
 						<p>Advanced Robotics Research is the novel subsystem of our student project. The subsystem deals with conceptualizations of 
@@ -53,7 +60,7 @@ function Team() {
 							ARR is the new way to unveil the skillset of our team and challenge the minds of innovation.
 						</p>
 					</div>
-					<div className="domain mx-auto">
+					<div data-aos="fade-down" className="domain mx-auto">
 						<h5>Management</h5>
 						<p><i>"<strong>Management</strong> is, above all, a practice where art, science, and craft meet." </i></p>
 						<p>Management subsystem deals with finances and sponsorship, advertisement, and graphics. Our team works for the competent functioning 
@@ -85,7 +92,7 @@ function Team() {
 							<h5>Arthik Raj B Jain</h5>
 							<p><strong>Electronics Head</strong></p>
           		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-4 profile">
 							<img src="assets/images/team/harshvardhan.jpg" alt="Harshvardhan" />
@@ -101,7 +108,7 @@ function Team() {
           		<a href="https://github.com/abhishekd-1" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-4 profile">
-							<img src="assets/images/team/sahas.jpg" />
+							<img src="assets/images/team/sahas.jpg" alt="Sahas" />
 							<h5>Sahas Agarwal</h5>
 							<p><strong>ARR Head</strong></p>
           		<a href=" https://www.linkedin.com/in/sahas-agarwal-58874b175/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -111,6 +118,13 @@ function Team() {
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Mechanical</h2><br></br>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
+							<img src="assets/images/robologo.png" alt="Dhanush" />
+							<h5>Dhanush Verma</h5>
+							<p><strong>Member</strong></p>
+          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/robologo.png" alt="Dion" />
 							<h5>Dion Machado</h5>
 							<p><strong>Member</strong></p>
@@ -118,7 +132,7 @@ function Team() {
           		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Arush" />
+							<img src="assets/images/team/arush.jpg" alt="Arush" />
 							<h5>Arush Mendon</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/arush-mendon-bb1613204/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -130,7 +144,7 @@ function Team() {
           		<a href="https://www.linkedin.com/in/manu-jain-1509b31b3" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Vikram" />
+							<img src="assets/images/team/vikram.jpg" alt="Vikram" />
 							<h5>Vikram Boga</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/vikram-boga-b20474204/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -177,14 +191,14 @@ function Team() {
           		<a href="https://www.linkedin.com/in/vismay-sharma-500015204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/robologo.png" alt="Aniruddh" />
+							<img src="assets/images/robologo.png" alt="Aniruddh" />
 							<h5>Name</h5>
 							<p><strong>Designation</strong></p>
           		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
           		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/robologo.png" alt="Tanushka" />
+							<img src="assets/images/robologo.png" alt="Tanushka" />
 							<h5>Name</h5>
 							<p><strong>Designation</strong></p>
           		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -237,11 +251,11 @@ function Team() {
           		<a href="https://www.linkedin.com/in/aryan-sinha-962b78204/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/.jpg" alt="Jaishnav" />
+							<img src="assets/images/robologo.png" alt="Jaishnav" />
 							<h5>Jaishnav Gopi</h5>
 							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/diwij-narang-4611781a7/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/Diwij" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.linkedin.com/in/jaishnav-gopi-1924341b9/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+          		<a href="https://github.com/jaishh5" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/nikhil.jpg" alt="Nikhil" />
@@ -257,7 +271,7 @@ function Team() {
           		<a href="https://github.com/Saisindhu-valluri" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/.jpg" alt="Ekta" />
+							<img src="assets/images/robologo.png" alt="Ekta" />
 							<h5>Name</h5>
 							<p><strong>Member</strong></p>
           		<a href="http://linkedin.com/in/nikhil-poonacha-9479b5188" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
