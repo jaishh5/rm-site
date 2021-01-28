@@ -23,8 +23,8 @@ function Test() {
           	Outside Kamath Circle, <br/>
           	Eshwar Nagar, Manipal, <br/>
           	Karnataka-576104 <br/> <br/>
-						<a href="tel:+919008147494" style={{ textDecoration: 'none', color: 'black' }}>90081 47494</a> <br/> <br/>
-						<a href="mailto:team.robomanipal@gmail.com" style={{ textDecoration: 'none', color: 'black' }}>team.robomanipal@gmail.com</a>
+						<a href="tel:+919008147494" style={{ color: 'black' }}>+91 70667 33619</a> <br/> <br/>
+						<a href="mailto:team.robomanipal@gmail.com" style={{ color: 'black' }}>team.robomanipal@gmail.com</a>
 					</address>
 				</div>
 			</div>

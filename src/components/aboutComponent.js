@@ -14,9 +14,9 @@ const About = () => {
     <div className="about">
 			<Container>
 				<div data-aos="fade-down" className="col-xl-4">
-					<img className="aboutimg" src="./assets/images/about1.jpg" alt="Robo_portrait" style={{ float: 'left', height: '80vh' }}/>	
+					<img className="aboutimg" src="./assets/images/about1.jpg" alt="Robo_Portrait" style={{ float: 'left', height: '80vh' }}/>	
 				</div>
-				<div data-aos="fade-right" className=" col-12 col-xl-6" style={{ float: 'right', textAlign: 'center' }}>
+				<div data-aos="fade-right" className="col-12 col-xl-6" style={{ float: 'right', textAlign: 'center' }}>
 					<Row className=" justify-content-center abouthead" style={{ paddingTop: '50px' }}>
 						<span></span>  
 						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   ABOUT US   </h3>

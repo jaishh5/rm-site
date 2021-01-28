@@ -130,8 +130,13 @@ function Work() {
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>HUMANOID ROBOT (BIPED)</h6>
 									<p>
-										The objective of this project is to design and create a biped robot that serves as a platform for the development of bipedal 
-										locomotion. The goal of this project is to achieve a dynamically stable gait for walking motion of the biped robot.
+										We took upon ourselves a challenge to design and create a biped robot that serves as a platform for the development of bipedal 
+										locomotion. The goal of this project is to achieve a dynamically stable gait for walking motion of the biped robot. 
+									</p>
+									<p>
+										The biped itself is driven by servo hydraulic actuators, many of which are custom designed. The robot has a total possible 32 
+										degrees of freedom (possibly lesser subject to design changes). The current version under development is intended to be designed 
+										to walk with(closed loop) and without(open loop) sensory feedback on a treadmill.
 									</p>
 								</div>
 							</div>
@@ -144,9 +149,15 @@ function Work() {
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>QUADRUPED</h6>
-									<p>Quadruped robots come with a vast array of difficulties, including making lightweight and high torque actuators, strong 
-										structure and and even greater coding challenge, with requirements such as trajectory planning, gait generation, environment 
-										sensing and navigation.
+									<p>
+										Quadruped robots come with a vast array of difficulties, including making lightweight and high torque actuators, and even greater 
+										coding challenge, with requirements such as trajectory planning, gait generation, environment sensing and navigation. Four legs 
+										enable the robot to behave similar to a dog, with multiple gaits like trotting, pronking, and even canter.
+									</p>
+									<p>
+										We have observed that when compared to wheeled robots, legged robots have much more agility, which give them greater ability in 
+										traversing steep and challenging terrain. We believe, in future, quadruped robots will be crucial in law enforcement, military 
+										assistance, natural calamity rescue operations and possibly even planetary explorations in space.
 									</p>
 								</div>
 							</div>

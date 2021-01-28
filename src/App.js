@@ -1,17 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 import Home from './components/homeComponent.js';
-import About from './components/aboutComponent'
+// import About from './components/aboutComponent'
 import Vision from './components/visionComponent'
 import Work from './components/workComponent'
 import Competition from './components/competitionComponent'
 import Alumni from './components/alumniComponent'
 import Team from './components/teamComponent.js'
 import Gallery from './components/galleryComponent'
-import Sponsor from './components/sponsorComponent.js'
-import Contact from './components/contactComponent'
+// import Sponsor from './components/sponsorComponent.js'
+// import Contact from './components/contactComponent'
 
 function App() {
   return (
@@ -25,9 +25,9 @@ function App() {
           <Route path="/alumni" component={Alumni} />
           <Route path='/team' component={Team} />
           <Route path='/gallery' component={Gallery} />
-          <HashLink to="/#about" />
-          <HashLink to="/#sponsor" />
-          <HashLink to="/#contact" />
+          <Link to="/#about" />
+          <Link to="/#sponsor" />
+          <Link to="/#contact" />
       	</Switch>
       </Router>
     </div>

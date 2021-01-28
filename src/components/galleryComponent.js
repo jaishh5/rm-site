@@ -18,39 +18,156 @@ const Gallery = () => {
 				<Row>
 					<div className="wrapper">
 						<div id="box1" className="gridinner">
-							<img src="assets/images/gallery/1.jpg" alt="Bot1" />
+							<img src="assets/images/gallery/workshop.jpeg" alt="Workshop" />
 							<div className="overlay">
-								<div className="workinfo">
-									<h6 style={{ fontFamily: 'Montserrat-Bold' }}>HUMANOID ROBOT (BIPED)</h6>
+								<div className="gallinfo">
+									<h6>Workshop</h6>
 								</div>
 							</div>
 						</div>
 						<div id="box2" className="gridinner">
-							<img src="assets/images/gallery/2.jpg" alt="Team1" />
+							<img src="assets/images/gallery/wro1.jpg" alt="WRO1" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>WRO '18</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box3" className="gridinner">
-							<img src="assets/images/gallery/3.jpg" alt="Bot2" />
+							<img src="assets/images/gallery/robocon15bot.jpg" alt="Robo15 Bot" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '15 Bot</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box4" className="gridinner">
-							<img src="assets/images/gallery/4.jpg" alt="circuit" />
+							<img src="assets/images/gallery/rajeevsuri.jpg" alt="Rajeev Suri" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Rajeev Suri at RM</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box5" className="gridinner">
-							<img src="assets/images/gallery/5.jpeg" alt="Robowars" />
+							<img src="assets/images/gallery/robocon16bot.jpg" alt="Robo16 Bot" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '16 Bot</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box6" className="gridinner">
-							<img src="assets/images/gallery/6.jpg" alt="Team2" />
+							<img src="assets/images/gallery/robocon16.jpg" alt="Robo16" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '16</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box7" className="gridinner">
-							<img src="assets/images/gallery/7.jpg" alt="Bot3" />
+							<img src="assets/images/gallery/wro6.jpg" alt="WRO6" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>WRO '18</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box8" className="gridinner">
-							<img src="assets/images/gallery/8.jpg" alt="Bot4" />
+							<img src="assets/images/gallery/circuit.png" alt="Circuit" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Circuit</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box9" className="gridinner">
-							<img src="assets/images/gallery/9.jpg" alt="Team3" />
+							<img src="assets/images/gallery/team.jpg" alt="Team" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Team</h6>
+								</div>
+							</div>
 						</div>
 						<div id="box10" className="gridinner">
-							<img src="assets/images/gallery/10.jpeg" alt="Bot5" />
+							<img src="assets/images/gallery/robocon17.jpg" alt="Robo17" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '17</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box11" className="gridinner">
+							<img src="assets/images/gallery/biped.jpeg" alt="Biped" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Biped</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box12" className="gridinner">
+							<img src="assets/images/gallery/wro2.jpg" alt="WRO2" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>WRO '18</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box13" className="gridinner">
+							<img src="assets/images/gallery/robowars.jpeg" alt="Robowars" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robowars</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box14" className="gridinner">
+							<img src="assets/images/gallery/robocon18.jfif" alt="Robo18" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '18</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box15" className="gridinner">
+							<img src="assets/images/gallery/wro3.jpg" alt="WRO3" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>WRO '18</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box16" className="gridinner">
+							<img src="assets/images/gallery/robocon18bot.jpg" alt="Robo18 Bot" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '18 Bot</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box17" className="gridinner">
+							<img src="assets/images/gallery/wro4.jpg" alt="WRO4" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>WRO '18</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box18" className="gridinner">
+							<img src="assets/images/gallery/robocon20bot.png" alt="Robo20 Bot" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>Robocon '20 Bot</h6>
+								</div>
+							</div>
+						</div>
+						<div id="box19" className="gridinner">
+							<img src="assets/images/gallery/wro5.jpg" alt="WRO5" />
+							<div className="overlay">
+								<div className="gallinfo">
+									<h6>WRO '18</h6>
+								</div>
+							</div>
 						</div>
 					</div>
 				</Row>

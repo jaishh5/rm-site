@@ -43,8 +43,7 @@ function Team() {
 							<img src="assets/images/team/arthik.png" alt="Arthik" />
 							<h5>Arthik Raj B Jain</h5>
 							<p><strong>Electronics Head</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.linkedin.com/in/arthik-raj-b-jain-6921911b9" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-4 profile">
 							<img src="assets/images/team/harshvardhan.jpg" alt="Harshvardhan" />
@@ -226,6 +225,12 @@ function Team() {
 						</p>
 					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
+					<div className="col-xs-12 col-md-3 profile">
+							<img src="assets/images/team/ekta.jpg" alt="Ekta" />
+							<h5>Ekta Shenoy</h5>
+							<p><strong>Member</strong></p>
+          		<a href="https://www.linkedin.com/in/ektashenoy" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/anwesha.jpg" alt="Anwesha" />
 							<h5>Anwesha Bhattacharjee</h5>
@@ -239,7 +244,7 @@ function Team() {
           		<a href="https://www.linkedin.com/in/aryan-sinha-962b78204/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Jaishnav" />
+							<img src="assets/images/team/jaishnav.jpg" alt="Jaishnav" />
 							<h5>Jaishnav Gopi</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/jaishnav-gopi-1924341b9/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -257,13 +262,6 @@ function Team() {
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/saisindhu-s-aa42b1204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
           		<a href="https://github.com/Saisindhu-valluri" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Ekta" />
-							<h5>Name</h5>
-							<p><strong>Member</strong></p>
-          		<a href="http://linkedin.com/in/nikhil-poonacha-9479b5188" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-							<a href="https://github.com/Diwij" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Advanced Robotics Research</h2><br></br>

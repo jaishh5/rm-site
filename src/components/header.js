@@ -1,6 +1,7 @@
 import React, { useState,  useRef } from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
-import { Link } from 'react-scroll'
+import { NavHashLink as Link } from 'react-router-hash-link'
+import { animateScroll as scroll } from 'react-scroll'
 import './dropdown.css';
 import { useDetectOutsideClick } from './useDetectOutsideClick';
 
@@ -15,7 +16,7 @@ const Header = (props) => {
 	return (
 		<div>
 			<Navbar expand="xl" fixed="top" className="bg-black navbar-dark" style={{ fontFamily: 'Montserrat'}}>
-				<a href="/" className="navbar-brand order-xl-0 mx-auto" style={{padding: '1rem'}}><img alt="logo" id="logo" src="./assets/images/logo2.jpg" style={{height: 50}}></img></a>
+				<div onClick={() => scroll.scrollToTop()} className="navbar-brand order-xl-0 mx-auto" style={{padding: '1rem'}}><img alt="logo" id="logo" src="./assets/images/logo2.jpg" style={{height: 50}}></img></div>
 				<NavbarToggler onClick={toggle} style={{color: 'white'}}></NavbarToggler>
 				<Collapse isOpen={isOpen} navbar className="order-xl-1">
 					<Nav className="ml-auto" navbar>
@@ -23,7 +24,7 @@ const Header = (props) => {
 	            <a href="/" className="navlink nav-link">HOME</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">					
-				  <a href="/#about" className="navlink nav-link">ABOUT</a>
+				  		<Link to="/#about" activeClass="active" smooth scrollOffset={-100} duration={2000} className="navlink nav-link">ABOUT</Link>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
 	            <a href="/work" className="navlink nav-link">WORK</a>
@@ -46,11 +47,11 @@ const Header = (props) => {
 	            <a href="/gallery" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-			  <a href="/#sponsor" className="navlink nav-link">SPONSOR</a>	          
-			  </NavItem>
+							<Link to="/#sponsor" activeClass="active" spy={true} smooth={true} offset={-100} duration={2000} className="navlink nav-link">SPONSORS</Link>	          
+			  		</NavItem>
 	        	<NavItem className="mx-auto navlink">
-				<a href="/#contact" className="navlink nav-link">CONTACT</a>	          
-				</NavItem>
+							<Link to="/#contact" activeClass="active" spy={true} smooth={true} offset={-100} duration={2000} className="navlink nav-link">CONTACT</Link>	          
+						</NavItem>
 	        </Nav>
 				</Collapse>
 			</Navbar>

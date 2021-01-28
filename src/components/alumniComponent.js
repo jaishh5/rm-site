@@ -38,11 +38,10 @@ function Alumni() {
           		<a href="https://www.linkedin.com/in/vivek-valagadri-773492148/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="AdityaS" />
+							<img src="assets/images/alumni/adityas.jpg" alt="AdityaS" />
 							<h5>Aditya Shankar</h5>
 							<p><strong>Technical Head</strong></p>
-          		<a href="https://www.linkedin.com/in/rohit-jayanti-081493152/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-							<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.linkedin.com/in/aditya-shankar-manipal" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/alumni/rohitj.png" alt="RohitJ" />
@@ -54,15 +53,13 @@ function Alumni() {
 							<img src="assets/images/alumni/snehil.png" alt="Snehil" />
 							<h5>Snehil Bhardwaj</h5>
 							<p><strong>Management Head</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		{/* <a href="https://www.facebook.com/vishnu.kolal" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a> */}
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Melroy" />
+							<img src="assets/images/alumni/melroy.jpg" alt="Melroy" />
 							<h5>Melroy Crasto</h5>
 							<p><strong>Mechanical Head</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.linkedin.com/in/melroy-crasto-4a965214b" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 					</Row>
 					<Row style={{ fontFamily: 'Montserrat' }}>
@@ -89,8 +86,7 @@ function Alumni() {
 							<img src="assets/images/alumni/shivam.png" alt="Shivam" />
 							<h5>Shivam Acharya</h5>
 							<p><strong>Mechanical Member</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.linkedin.com/in/shivam-acharya-64b35b178" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>2018-19</h2><br></br>
@@ -123,6 +119,7 @@ function Alumni() {
 							<img src="assets/images/alumni/vishnu.png" alt="Vishnu" />
 							<h5>Vishnu Kolal</h5>
 							<p><strong>Mechanical Head</strong></p>
+							{/* <a href="https://www.facebook.com/vishnu.kolal" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a> */}
 						</div>
 						<div className="col-xs-12 col-md-4 profile">
 							<img src="assets/images/alumni/avneesh.png" alt="Avneesh" />

@@ -4,7 +4,7 @@ import { Container, Row } from 'reactstrap';
 function Sponsor () {
   return (
     <div className="sponsor1"> 
-			<Row className="justify-content-center sponsorhead" style={{ paddingTop: '50px' }}>
+			<Row className="justify-content-center sponsorhead" style={{ paddingTop: '90px' }}>
 				<span></span>  
 				<h2 style={{color: 'black', fontFamily: 'Montserrat-Bold'}}>   OUR SPONSORS   </h2>
 				<span></span>
