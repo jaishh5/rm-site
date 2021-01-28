@@ -16,9 +16,7 @@ function Work() {
 			<Header />
 			<div className="workhead">
 				<Row className="justify-content-center pagehead">
-					<span></span>  
 					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   OUR WORK   </h3>
-					<span></span>
 				</Row>
 			</div>
 			<Container style={{ paddingBottom: '50px', paddingTop: '50px' }}>
@@ -29,10 +27,10 @@ function Work() {
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>ELECTROMYOGRAPHY</h6>
-									<p>Electromyography(EMG) is the measurement of myoelectric signals involved in muscle activation and contraction. The basis 
-										behind EMG lies in the fact that the electrical signals sent to the muscle can be picked up on the surface of the skin, 
-										using electrodes, at the desired muscle location. This allows one to compare the electrical signals being sent to the 
-										muscle with the physical response of the muscle itself.
+									<p>
+										Electromyography(EMG) is the measurement of myoelectric signals involved in muscle activation and contraction. 
+										In this project, one can measure a muscle's response, say, for example, the biceps muscle, to a specific stimulus 
+										or an action.
 									</p>
 								</div>
 							</div>
@@ -41,14 +39,13 @@ function Work() {
 					</div>
 					<div data-aos="fade-down" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/gurney.jpg" alt="Gurney" />
+							<img src="assets/images/work/gurney.png" alt="Gurney" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>POWER ASSISTED GURNEY</h6>
-									<p>A power assisted drive system, developed by Vignesh Iyer and Sandesh Manik, for existing gurneys used in hospitals which 
-										permits the movement of a gurney by a single person as opposed to the existing ones which require three or more people, 
-										with the motion being truly holonomic and the operation not requiring any additional knowledge. This system allows any 
-										person to operate a gurney without any effort or hassles, especially during emergency situations.
+									<p>
+										This system is used for existing gurneys used in hospitals, which permits a gurney's movement by a single person. 
+										It allows any person to operate a gurney without any effort or hassles, especially during emergencies.
 									</p>
 								</div>
 							</div>
@@ -57,14 +54,14 @@ function Work() {
 					</div>
 					<div data-aos="fade-left" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/homeautomation.jpg" alt="Automation" />
+							<img src="assets/images/work/homeautomation.png" alt="Automation" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>SMART HOME AUTOMATION</h6>
-									<p>Using the concept of Internet of Things(IoT), this project allows the owner to monitor, access, and manage the electronic 
-										devices in the house. Home automation demonstrates both security and ease granted by the concept. A lot of sensors are involved 
-										here to monitor different devices/objects in the house which can all be done with a click of a button on a website or a mobile 
-										app to enable the user the extensive control of his home.
+									<p>
+										Using the Internet of Things(IoT) concept, this project allows the owner to monitor, access, and manage the electronic 
+										devices in the house from a mobile app or the web. Several sensors are involved here to monitor different devices/objects 
+										in the house.
 									</p>
 								</div>
 							</div>
@@ -79,11 +76,10 @@ function Work() {
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>ATOMIZED CLEANING WATER DISPENSER</h6>
-									<p>The use of conventional taps since the past few centuries has led to inefficient use of water when it comes to cleaning since 
-										most of the water goes down the drain after bouncing off a surface. A replacement for existing taps having atomizers in parallel 
-										and water pressurized by a localized compressor. It gives the same cleaning efficiency of tap water in the same time span and 
-										saving about 90% of water while doing so. This not only saves a lot of water, but also saves electricity that was being used to
-										 pump the water.
+									<p>
+										The use of conventional taps for the past few centuries has led to inefficient use, and water cleaning since most of the water goes 
+										down the drain. A replacement for existing taps having atomizers in parallel and water pressurized by a localized compressor. This 
+										increases cleaning efficiency, saving about 90% of tap water and electricity being used to pump the water in the same time span.
 									</p>
 								</div>
 							</div>
@@ -92,14 +88,15 @@ function Work() {
 					</div>
 					<div data-aos="fade-up" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/choppercircuit.png" alt="Circuit" />
+							<img src="assets/images/work/choppercircuit.jpg" alt="Circuit" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>CHOPPER CIRCUIT</h6>
-									<p>This project was initially started as a means of preventing undue damage to battery due to circuit failure. For the 2017 season 
-										of Robocon, this circuit would be used to measure current input to motor drivers for the launching mechanism motors. This circuit 
-										failed due to both heavy reverse spike voltages and circuit problems from bad quality of pcb etching. Shortage of time prevented 
-										any further changes from being made and circuit was not used in the final bot.
+									<p>
+										The project was initially started to prevent undue damage to the battery due to circuit failure. In the 2017 season of Robocon, 
+										this circuit was used to measure current input to motor drivers for the launching mechanism motors. It failed due to both heavy 
+										reverse spike voltages and circuit problems from the bad quality of PCB etching and the Shortage of time prevented any further 
+										changes to the circuit, which was not used in the final bot.
 									</p>
 								</div>
 							</div>
@@ -108,15 +105,15 @@ function Work() {
 					</div>
 					<div data-aos="fade-left" className="col-12 col-md-4 project">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/smartbot.png" alt="Smartbot" />
+							<img src="assets/images/work/smartbot.jpg" alt="Smartbot" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>SMART BOT</h6>
-									<p>The idea is of a bot that can walk on two feet (using pneumatic actuated mechanisms), map an environment in 3D (using kinect or a LiDAR) 
-										and interact with users. The piston can expand and contract, using a 4 bar mechanism, with this kind of actuator, one can easily 
-										attain joint motion as shown in the first diagram. If used with proper control theories, then it’ll make a very stable base for 
-										motion. Software VReP will be used for simulation and inverse kinematics. A genetic algorithm will be trained to attain walking 
-										motion.
+									<p>
+										The idea of a bot mechanism can walk on two feet (using pneumatic actuated mechanisms), map an environment in 3D (using Kinect or a LiDAR), 
+										and interact with users. The piston can expand and contract, using a 4 bar mechanism, and this kind of actuator to easily attain joint 
+										motion as shown in the diagram. A very stable base for motion is achieved with proper control theories. Software VReP is used for simulation 
+										and inverse kinematics. A genetic algorithm is trained to attain walking motion.
 									</p>
 								</div>
 							</div>
@@ -128,11 +125,12 @@ function Work() {
 				<Row style={{ paddingTop: '50px' }}>
 					<div data-aos="fade-down" className="col-12 col-md-4 project mx-auto">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/biped.jpeg" alt="Biped" />
+							<img src="assets/images/work/biped.jpg" alt="Biped" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>HUMANOID ROBOT (BIPED)</h6>
-									<p>The objective of this project is to design and create a biped robot that serves as a platform for the development of bipedal 
+									<p>
+										The objective of this project is to design and create a biped robot that serves as a platform for the development of bipedal 
 										locomotion. The goal of this project is to achieve a dynamically stable gait for walking motion of the biped robot.
 									</p>
 								</div>
@@ -142,7 +140,7 @@ function Work() {
 						</div>
 					<div data-aos="fade-down" className="col-12 col-md-4 project mx-auto">
 						<div className="inner mx-auto">
-							<img src="assets/images/work/quadruped.jpeg" alt="Quadruped" />
+							<img src="assets/images/work/quadruped.jpg" alt="Quadruped" />
 							<div className="overlay">
 								<div className="workinfo">
 									<h6 style={{ paddingTop: '20px', fontFamily: 'Montserrat-Bold' }}>QUADRUPED</h6>

@@ -1,6 +1,5 @@
 {
   "name": "rm-site",
-  "homepage": "https://jaishh5.github.io/rm-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

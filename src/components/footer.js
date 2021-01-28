@@ -6,6 +6,7 @@ const Footer = () => {
 		  <div className="row footer">
   			<div className="col-12 col-md-8 text-center mx-auto">
         <img src='assets/images/rm_logo.png' className="footerimg" alt="RM Logo" />
+        <img src='assets/images/mahe.png' className="footerimg" alt="MAHE Logo" />
           <div className="row justify-content-center" style={{ paddingTop: '20px' }}>
             <ul className="list-unstyled list-inline">
               <li className="list-inline-item">

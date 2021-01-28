@@ -16,15 +16,13 @@ function Competition() {
 			<Header />
 			<div className="comphead">
 				<Row className="justify-content-center pagehead" style={{ alignItems: 'center' }}>
-					<span></span>  
 					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   COMPETITIONS   </h3>
-					<span></span>
 				</Row>
 			</div>
 			<Container>
 				<Row className="comp">
 					<div data-aos="fade-down" class="col-lg-4 col-sm-12 mx-auto">
-						<img src="assets/images/robocon.jpg" alt="Robocon" />
+						<img className="mx-auto" src="assets/images/robocon.jpg" alt="Robocon" />
 					</div>
 					<div data-aos="fade-right" class="col-lg-8 col-sm-12 compinfo">
 						<h4 style={{ fontFamily: 'Montserrat-Bold' }}>ABU ROBOCON</h4>
@@ -40,7 +38,7 @@ function Competition() {
 				</Row>
 				<Row className="comp" style={{ paddingBottom: '50px'}}>
 					<div data-aos="fade-right" class="col-lg-4 col-sm-12">
-						<img src="assets/images/wro.JPG" alt="WRO" />
+						<img className="mx-auto" src="assets/images/wro.JPG" alt="WRO" />
 					</div>
 					<div data-aos="fade-left" class="col-lg-8 col-sm-12 compinfo">
 						<h4 style={{ fontFamily: 'Montserrat-Bold' }}>WORLD ROBOTICS OLYMPIAD (WRO)</h4>
