@@ -244,7 +244,7 @@ function Team() {
           		<a href="https://www.linkedin.com/in/aryan-sinha-962b78204/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/jaishnav.jpg" alt="Jaishnav" />
+							<img src="assets/images/team/jaishnav.JPG" alt="Jaishnav" />
 							<h5>Jaishnav Gopi</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/jaishnav-gopi-1924341b9/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
