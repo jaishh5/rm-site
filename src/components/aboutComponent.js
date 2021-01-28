@@ -23,7 +23,7 @@ const About = () => {
 						<span></span>
 					</Row>
 					<p style={{ fontFamily: 'Montserrat' }}>
-						Team RoboManipal is the official robotics a student project of Manipal Institute of Technology.
+						Team RoboManipal is the official robotics student project of Manipal Institute of Technology.
 						The team is embraced by sedulous members who constantly aim to achieve innovation through robotic technology to present
 						themselves at various competitions. We are a group of coding, mechanical, electronics, advanced robotic research, 
 						and management aficionados who work unitedly for what we “dream, build, and achieve.”
