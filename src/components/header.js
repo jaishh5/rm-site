@@ -23,7 +23,7 @@ const Header = (props) => {
 	            <a href="/" className="navlink nav-link">HOME</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-							<Link className="navlink nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={1000}>ABOUT</Link>
+				  <a href="/#about" className="navlink nav-link">ABOUT</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
 	            <a href="/work" className="navlink nav-link">WORK</a>
@@ -50,11 +50,11 @@ const Header = (props) => {
 	            <a href="/gallery" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <Link className="navlink nav-link" activeClass="active" to="sponsor1" spy={true} smooth={true} offset={-100} duration={1000}>SPONSORS</Link>
-	          </NavItem>
+			  <a href="/#sponsor" className="navlink nav-link">SPONSOR</a>	          
+			  </NavItem>
 	        	<NavItem className="mx-auto navlink">
-							<Link className="navlink nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-98} duration={1000}>CONTACT</Link>
-	          </NavItem>
+				<a href="/#contact" className="navlink nav-link">CONTACT</a>	          
+				</NavItem>
 	        </Nav>
 				</Collapse>
 			</Navbar>

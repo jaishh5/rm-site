@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import Home from './components/homeComponent.js';
 import About from './components/aboutComponent'
@@ -17,14 +18,15 @@ function App() {
       <Router>
       	<Switch>
       		<Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          
           <Route path="/work" component={Work} />
           <Route path="/competition" component={Competition} />
           <Route path="/alumni" component={Alumni} />
           <Route path='/team' component={Team} />
           <Route path='/gallery' component={Gallery} />
-          <Route path='/sponsor' component={Sponsor} />
-          <Route path="/contact" component={Contact} />
+          <HashLink to="/#about" />
+          <HashLink to="/#sponsor" />
+          <HashLink to="/#contact" />
       	</Switch>
       </Router>
     </div>

@@ -14,9 +14,15 @@ function Home(){
 					<img src="assets/images/rm_logo.png" alt="RM Logo" />
 				</div>
 			</div>
-			<About />	
-			<Sponsor />
-			<Contact />
+			<div id='about'>
+				<About/>	
+			</div>
+			<div id='sponsor'>
+				<Sponsor/>	
+			</div>
+			<div id='contact'>
+				<Contact/>	
+			</div>
 			<Footer />
 		</div>
 	)
