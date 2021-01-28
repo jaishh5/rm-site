@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header.js';
 import About from './aboutComponent.js';
+import Vision from './visionComponent'
 import Sponsor from './sponsorComponent'
 import Contact from './contactComponent'
 import Footer from './footer.js';
@@ -14,6 +15,7 @@ function Home(){
 					<img src="assets/images/rm_logo.png" alt="RM Logo" />
 				</div>
 			</div>
+			<Vision />		
 			<div id='about'>
 				<About/>	
 			</div>

@@ -14,7 +14,7 @@ const Header = (props) => {
 
 	return (
 		<div>
-			<Navbar expand="xl" fixed="top" className="bg-black navbar-dark" style={{ fontFamily: 'Montserrat-Bold'}}>
+			<Navbar expand="xl" fixed="top" className="bg-black navbar-dark" style={{ fontFamily: 'Montserrat'}}>
 				<a href="/" className="navbar-brand order-xl-0 mx-auto" style={{padding: '1rem'}}><img alt="logo" id="logo" src="./assets/images/logo2.jpg" style={{height: 50}}></img></a>
 				<NavbarToggler onClick={toggle} style={{color: 'white'}}></NavbarToggler>
 				<Collapse isOpen={isOpen} navbar className="order-xl-1">
@@ -22,7 +22,7 @@ const Header = (props) => {
 	          <NavItem className="mx-auto navlink">
 	            <a href="/" className="navlink nav-link">HOME</a>
 	          </NavItem>
-	          <NavItem className="mx-auto navlink">
+	          <NavItem className="mx-auto navlink">					
 				  <a href="/#about" className="navlink nav-link">ABOUT</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
@@ -31,10 +31,6 @@ const Header = (props) => {
 	        	<NavItem className="mx-auto navlink">
 	            <a href="/competition" className="navlink nav-link">COMPETITIONS</a>
 	          </NavItem>
-	        </Nav>
-				</Collapse>
-				<Collapse isOpen={isOpen} navbar className="order-xl-2">
-					<Nav className="mr-auto" navbar>
 	          <NavItem className="mx-auto navlink menu-container">
 	            <button onClick={onClick} href="/" className="navlink nav-link menu-trigger">
 								TEAM <i className="fa fa-caret-down" />

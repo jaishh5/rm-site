@@ -21,56 +21,8 @@ function Team() {
 					<span></span>
 				</Row>
 			</div>
-			<Row className="container" style={{ textAlign: 'center', margin: '0 auto', paddingBottom: '30px', paddingTop: '15px', fontFamily: 'Montserrat' }}>
-				<div data-aos="fade-down" className="domain mx-auto">
-					<h5>Mechanical</h5>
-					<p><i>"No TECH without <strong>MECH</strong>."</i></p>
-					<p>
-						Mechanical work comprises of designing and manufacturing of the robot. Our team works on 3D modeling, actuator design, 
-						real-time constraint simulation, and robust design for robots' efficient functioning. Different CAD models are developed 
-						for other mechanisms and experiments, including real-time testing, simulation, and analysis.
-					</p>
-				</div>
-				<div data-aos="fade-down" className="domain mx-auto">
-					<h5>Electronics</h5>
-					<p><i>
-						"You can involve yourself in electronics, computers, puzzles... there's a lot of creativity and brain working. 
-						There's a lot to model trains that people don't realize."
-					</i></p>
-					<p>The electronics subsystem is the central system to function the robot. We work on rapid PCB prototyping to interfacing 
-						a wide range of sensors to DAQ. From choosing the right components to design specificized pieces, we specialize in all. 
-						To exclude off-the-shelf electronics to make the bot specific, the study is carried out to develop, simulate and validate 
-						circuits.
-					</p>
-				</div>
-				<div data-aos="fade-down" className="domain mx-auto">
-					<h5>Coding</h5>
-					<p><i>"Everybody should learn to program a computer because it teaches you how to think."</i></p>
-					<p>Programming is an essential part when it comes to handling robots. Our coding subsystem links the electronics and mechanical 
-						work in coordination, from programming microcontroller microcontrollers and processors, interfacing electronics and mechanics, 
-						neural networks, and deep learning to computer vision and sensing. They work on the design and semi/complete automation of 
-						processes for reliable control systems.
-					</p>
-					</div>
-					<div data-aos="fade-down" className="domain mx-auto">
-						<h5>Advanced Robotics Research</h5>
-						<p><i>"There is an endless number of things to discover about robotics. A lot of it is just too fantastic for people to believe."</i></p>
-						<p>Advanced Robotics Research is the novel subsystem of our student project. The subsystem deals with conceptualizations of 
-							robotics with other advanced technologies. We work on the research and development of this vast art of building and working robots. 
-							ARR is the new way to unveil the skillset of our team and challenge the minds of innovation.
-						</p>
-					</div>
-					<div data-aos="fade-down" className="domain mx-auto">
-						<h5>Management</h5>
-						<p><i>"<strong>Management</strong> is, above all, a practice where art, science, and craft meet." </i></p>
-						<p>Management subsystem deals with finances and sponsorship, advertisement, and graphics. Our team works for the competent functioning 
-							of the whole student project maintaining harmony amongst all the subsystems. Public relations and human resources are also a part of 
-							our responsibilities. Operations, business management, strategic planning, and web/app development are our specializations.
-						</p>
-					</div>
-				</Row>
 			<div>
-			<Container>			
+			<Container style={{ fontFamily: 'Montserrat' }}>			
 				<div style={{ textAlign: 'center', paddingTop: '50px' }}>
 					<h2 style={{ fontFamily: 'Montserrat-Bold' }}>Board Members</h2>
 					<Row style={{ fontFamily: 'Montserrat' }}>
@@ -116,6 +68,14 @@ function Team() {
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Mechanical</h2><br></br>
+					<div data-aos="fade-right">
+						<p><i>"No TECH without <strong>MECH</strong>."</i></p>
+						<p>
+							Mechanical work comprises of designing and manufacturing of the robot. Our team works on 3D modeling, actuator design, 
+							real-time constraint simulation, and robust design for robots' efficient functioning. Different CAD models are developed 
+							for other mechanisms and experiments, including real-time testing, simulation, and analysis.
+						</p>
+					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/robologo.png" alt="Dhanush" />
@@ -151,6 +111,17 @@ function Team() {
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Electronics</h2><br></br>
+					<div data-aos="fade-left">
+						<p><i>
+							"You can involve yourself in electronics, computers, puzzles... there's a lot of creativity and brain working. 
+							There's a lot to model trains that people don't realize."
+						</i></p>
+						<p>The electronics subsystem is the central system to function the robot. We work on rapid PCB prototyping to interfacing 
+							a wide range of sensors to DAQ. From choosing the right components to design specificized pieces, we specialize in all. 
+							To exclude off-the-shelf electronics to make the bot specific, the study is carried out to develop, simulate and validate 
+							circuits.
+						</p>
+					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/sukrita.jpg" alt="Sukrita" />
@@ -206,6 +177,15 @@ function Team() {
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Coding</h2><br></br>
+					<div data-aos="fade-right">
+						<p><i>"Everybody should learn to program a computer because it teaches you how to think."</i></p>
+						<p>
+							Programming is an essential part when it comes to handling robots. Our coding subsystem links the electronics and mechanical 
+							work in coordination, from programming microcontroller microcontrollers and processors, interfacing electronics and mechanics, 
+							neural networks, and deep learning to computer vision and sensing. They work on the design and semi/complete automation of 
+							processes for reliable control systems.
+						</p>
+					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/aman.png" alt="Aman" />
@@ -237,6 +217,14 @@ function Team() {
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Management</h2><br></br>
+					<div data-aos="fade-left">
+						<p><i>"<strong>Management</strong> is, above all, a practice where art, science, and craft meet." </i></p>
+						<p>
+							Management subsystem deals with finances and sponsorship, advertisement, and graphics. Our team works for the competent functioning 
+							of the whole student project maintaining harmony amongst all the subsystems. Public relations and human resources are also a part of 
+							our responsibilities. Operations, business management, strategic planning, and web/app development are our specializations.
+						</p>
+					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/anwesha.jpg" alt="Anwesha" />
@@ -278,6 +266,15 @@ function Team() {
 							<a href="https://github.com/Diwij" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 					</Row>
+					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Advanced Robotics Research</h2><br></br>
+					<div data-aos="fade-right" style={{ paddingBottom: '50px' }}>
+						<p><i>"There is an endless number of things to discover about robotics. A lot of it is just too fantastic for people to believe."</i></p>
+						<p>
+							Advanced Robotics Research is the novel subsystem of our student project. The subsystem deals with conceptualizations of 
+							robotics with other advanced technologies. We work on the research and development of this vast art of building and working robots. 
+							ARR is the new way to unveil the skillset of our team and challenge the minds of innovation.
+						</p>
+					</div>
 				</div>
 			</Container>
 			<Footer />

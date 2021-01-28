@@ -39,8 +39,13 @@ const About = () => {
 						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   VISION AND MISSION   </h3>
 						<span></span>
 					</Row>
-					<p style={{ paddingBottom: '30px', fontFamily: 'Montserrat' }}>
-						Our innovation starts with a DREAM to elucidate problems as we BUILD solutions to ACHIEVE the limitless.
+					<p style={{ fontFamily: 'Montserrat' }}>
+						Our team strongly believes in a future for robotics that will take the world forward with innovative technologies and enrich
+						human lives to create a better tomorrow.
+					</p>
+					<p style={{ paddingBottom:'30px', fontFamily: 'Montserrat' }}>
+						As students with unlimited passion for robotics, we indulge ourselves in building robots and compete in some of the toughest
+						competitions in the world. Our innovation starts with a DREAM to elucidate problems as we BUILD solutions to ACHIEVE the limitless. 
 					</p>
 				</div>
 			</Container>

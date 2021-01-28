@@ -13,7 +13,7 @@
 }
 
 .navlink {
-  padding-right: 1rem;
+  padding-right: 0.4rem;
   font-size: 1.2rem;
   color: grey;
   font-weight: bold;
@@ -66,6 +66,14 @@
   background-position: center;
 }
 
+.visioncomp h1 {
+  font-family: 'Montserrat-Bold';
+}
+
+.visioncomp p {
+  font-family: 'Montserrat';
+}
+
 .workhead {
   background-image: url('./work.png');
   height: 50vh;
@@ -116,7 +124,6 @@
   transform: scale(1.2);
   filter: grayscale(100);
   transition: 0.75s all ease;
-
 }
 
 .workinfo {
@@ -149,18 +156,6 @@
 
 .compinfo {
   text-align: center;
-}
-
-.domain {
-  width: 31%;
-  padding: 30px;
-  margin: 20px;
-  background-color: #7f8c8d;
-}
-
-.domain h5 {
-  text-align: center;
-  font-family: 'Montserrat-Bold';
 }
 
 .profile {
@@ -225,12 +220,18 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  filter: grayscale(20%);
 }
 
-.gridinner img:hover {
+.gridinner:hover img {
   object-fit: cover;
   transform: scale(0.95);
+  transition: 0.75s all ease;
+}
+
+.gridinner:hover .overlay {
+  opacity: 0.45;
+  transform: scale(0.95);
+  transition: 0.75s all ease;
 }
 
 #box1 {
@@ -291,6 +292,11 @@
 
 .form {
   text-align: center;
+  float: left;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('./team.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact {
@@ -343,10 +349,6 @@
   color: white;
 }
 
-.form {
-  float: left;
-}
-
 .footer {
   padding-top: 50px;
   background-color: black;
@@ -380,19 +382,11 @@
   .pagehead span {
     width: 5vw ;
   }
-
-  .comp img {
-    margin-left: 50px;
-  }
-
-  .about {
-    height: 160vh;
-  }
 }
 
-@media screen and (min-width: 567px), (max-width: 767px) {
+@media (max-width: 767px) {
   .about {
-    height: 120vh;
+    height: 170vh;
   }
 }
 
@@ -401,7 +395,6 @@
     width: 60%;
   }
 
-  
   .aboutimg {
     display: none;
   }
@@ -415,8 +408,8 @@
     display: block;
   }
 
-  .workhead span {
-    width: 15vw;
+  .workinfo {
+    font-size: 0.5rem;
   }
 
   .inner {
@@ -436,10 +429,6 @@
     display: block;
   }
 
-  .domain {
-    width: 80%;
-  }
-
   .pagehead span {
     width: 25vw;
   }
@@ -449,13 +438,13 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
     grid-template-areas: 
-        "box1 box3"
-        "box1 box4"
-        "box2 box2"
-        "box5 box7"
-        "box5 box6"
-        "box9 box8"
-        "box10 box8";
+      "box1 box3"
+      "box1 box4"
+      "box2 box2"
+      "box5 box7"
+      "box5 box6"
+      "box9 box8"
+      "box10 box8";
     padding: 10px;
   }
   
@@ -474,23 +463,40 @@
   }
 
   .footerimg {
-    width: 38%;
+    width: 25%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footerimg {
-    width: 20%;
-  }
-
-  .comp img {
-    float: none;
-  }
+    width: 10%;
+  }  
 }
 
 @media (min-width: 768px), (max-width: 1199) {
   .pagehead span {
     width: 40vw;
+  }
+}
+
+@media ( max-width: 991px ) {
+  .comp img {
+    float: none;
+    display: block;
+  }
+
+  .visioncomp {
+    text-align: center;
+  }
+  
+  .visioncomp h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .visioncomp h1 {
+    font-size: 5rem;
   }
 }
 
@@ -500,16 +506,16 @@
   }
 
   .about {
-    height: 120vh;
+    height: 110vh;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .pagehead span {
     width: 40vw;
   }
 
   .about {
-    height: 105vh;
+    height: 130vh;
   }
 }
