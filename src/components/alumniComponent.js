@@ -9,9 +9,9 @@ function Alumni() {
 			<Header />
 			<div className="pagebg">
 				<Row className="justify-content-center pagehead">
-					<span></span>  
+					{/* <span></span>   */}
 					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   OUR ALUMNI   </h3>
-					<span></span>
+					{/* <span></span> */}
 				</Row>
 			</div>
       <Container>

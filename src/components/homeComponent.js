@@ -14,6 +14,7 @@ function Home(){
 				<div className="headerimg" style={{ position: 'absolute', width: '100%', height: '100%' }}>
 					<img src="assets/images/rm_logo.png" alt="RM Logo" />
 				</div>
+				
 			</div>
 			<div id='about'>
 				<About/>	

@@ -16,9 +16,9 @@ function Team() {
       <Header />
 			<div className="pagebg">
 				<Row className="justify-content-center pagehead">
-					<span></span>  
+					{/* <span></span>   */}
 					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   OUR TEAM   </h3>
-					<span></span>
+					{/* <span></span> */}
 				</Row>
 			</div>
 			<div>
@@ -80,15 +80,12 @@ function Team() {
 							<img src="assets/images/robologo.png" alt="Dhanush" />
 							<h5>Dhanush Verma</h5>
 							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+          		<a href="https://www.linkedin.com/in/dhanush-varma-595b7b191" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Dion" />
+							<img src="assets/images/team/dion.jpg" alt="Dion" />
 							<h5>Dion Machado</h5>
 							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/arush.jpg" alt="Arush" />
@@ -123,10 +120,22 @@ function Team() {
 					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
+							<img src="assets/images/team/aniruddh.jpg" alt="Aniruddh" />
+							<h5>Aniruddh Mallya</h5>
+							<p><strong>Member</strong></p>
+          		<a href="https://www.linkedin.com/in/aniruddh-mallya-a88729178" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/sukrita.jpg" alt="Sukrita" />
 							<h5>Sukrita Panigrahi</h5>
 							<p><strong>Member</strong></p>
           		<a href="http://www.linkedin.com/in/sukrita-panigrahi-27734b171" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-3 profile">
+							<img src="assets/images/team/tanushka.jpg" alt="Tanushka" />
+							<h5>Tanushka Singh</h5>
+							<p><strong>Member</strong></p>
+          		<a href="https://www.linkedin.com/in/tanushka-singh-a70754186" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/laaboni.jpg" alt="Laaboni" />
@@ -159,20 +168,6 @@ function Team() {
 							<h5>Vismay Sharma</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/vismay-sharma-500015204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Aniruddh" />
-							<h5>Name</h5>
-							<p><strong>Designation</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Tanushka" />
-							<h5>Name</h5>
-							<p><strong>Designation</strong></p>
-          		<a href="https://www.linkedin.com/company/robomanipal/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://www.github.com/" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Coding</h2><br></br>
@@ -225,12 +220,6 @@ function Team() {
 						</p>
 					</div>
 					<Row style={{ fontFamily: 'Montserrat' }}>
-					<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/ekta.jpg" alt="Ekta" />
-							<h5>Ekta Shenoy</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/ektashenoy" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/anwesha.jpg" alt="Anwesha" />
 							<h5>Anwesha Bhattacharjee</h5>

@@ -9,9 +9,9 @@ const Gallery = () => {
       <Header />
 			<div className="pagebg">
 				<Row className="justify-content-center pagehead">
-					<span></span>  
+					{/* <span></span>   */}
 					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   GALLERY   </h3>
-					<span></span>
+					{/* <span></span> */}
 				</Row>
     	</div>
 			<Container>
