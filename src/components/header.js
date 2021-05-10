@@ -13,6 +13,15 @@ const Header = (props) => {
   const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
 	const onClick = () => setIsActive(!isActive);
 
+	const scrollWithOffset = (el, offset) => {
+		const elementPosition = el.offsetTop - offset;
+		window.scroll({
+			top: elementPosition,
+			left: 0,
+			behavior: "smooth"
+		});    
+	};
+
 	return (
 		<div>
 			<Navbar expand="xl" fixed="top" className="bg-black navbar-dark" style={{ fontFamily: 'Montserrat'}}>
@@ -24,7 +33,7 @@ const Header = (props) => {
 	            <a href="/" className="navlink nav-link">HOME</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">					
-				  		<Link to="/#about" activeClass="active" smooth scrollOffset={-100} duration={2000} className="navlink nav-link">ABOUT</Link>
+				  		<Link to="/#about" activeClass="active" scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">ABOUT US</Link>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
 	            <a href="/work" className="navlink nav-link">WORK</a>
@@ -47,10 +56,10 @@ const Header = (props) => {
 	            <a href="/gallery" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-							<Link to="/#sponsor" activeClass="active" spy={true} smooth={true} offset={-100} duration={2000} className="navlink nav-link">SPONSORS</Link>	          
+							<Link to="/#sponsor" activeClass="active" spy={true} scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">SPONSORS</Link>	          
 			  		</NavItem>
 	        	<NavItem className="mx-auto navlink">
-							<Link to="/#contact" activeClass="active" spy={true} smooth={true} offset={-100} duration={2000} className="navlink nav-link">CONTACT</Link>	          
+							<Link to="/#contact" activeClass="active" spy={true} scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">CONTACT</Link>	          
 						</NavItem>
 	        </Nav>
 				</Collapse>
