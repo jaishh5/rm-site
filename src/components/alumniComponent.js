@@ -133,8 +133,8 @@ function Alumni() {
 						<h2 style={{ fontFamily: 'Montserrat-Bold' }}>ALUMNI COMPANIES</h2>
 						<img src="assets/images/strange.jpg" alt="Strange Matter" />
 						<img src="assets/images/xes.png" alt="XES Automation" />
-    				<img src="assets/images/fracktal.jpg" alt="Fracktal Works" />
-						<img src="assets/images/credence.png" alt="Credence Robotics" />
+    				<a href="https://fracktal.in/" target="_blank" rel="noreferrer"><img src="assets/images/fracktal.jpg" alt="Fracktal Works" /></a>
+						<a href="https://www.credencerobotics.com/" target="_blank" rel="noreferrer"><img src="assets/images/credence.png" alt="Credence Robotics" /></a>
 					</div>
 					</Row>
 				</div>
