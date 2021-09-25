@@ -55,6 +55,9 @@ const Header = (props) => {
 	          <NavItem className="mx-auto navlink">
 	            <a href="/gallery" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
+						<NavItem className="mx-auto navlink">
+	            <a href="/blogs" className="navlink nav-link">BLOGS</a>
+	          </NavItem>
 	          <NavItem className="mx-auto navlink">
 							<Link to="/#sponsor" activeClass="active" spy={true} scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">SPONSORS</Link>	          
 			  		</NavItem>
