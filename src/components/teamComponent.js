@@ -115,19 +115,6 @@ function Team() {
 							<p><strong>Member</strong></p>
           		<a href="https://github.com/pickaboo7" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/yamit.jpg" alt="Yamit" />
-							<h5>Yamit Agarwal</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/yamit-agarwal-01623a217" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/Yamit22" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/yash.jpg" alt="Yash" />
-							<h5>Yash Jain</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://github.com/THEROCKA4750" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Electronics</h2><br></br>
 					<div data-aos="fade-left">
@@ -150,25 +137,11 @@ function Team() {
           		<a href="https://github.com/meghang-101" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/mukul.jpg" alt="Mukul" />
-							<h5>Mukul Yadav</h5>
-							<p><strong>Senior Member</strong></p>
-          		<a href="http://www.linkedin.com/in/mukul-yadav-14888a1a9" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-							<a href="https://github.com/mukul160" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/hirak.jpg" alt="Hirakjyoti" />
 							<h5>Hirakjyoti Roy</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/hirakjyoti-roy-785b62218/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
           		<a href="https://github.com/HirakJR" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/mahendra.jpg" alt="Mahendra" />
-							<h5>Mahendra Pratap Singh</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/mahendra-singh-726995188/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/guyrip" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/sagnnik.jpg" alt="Sagnnik" />
@@ -223,19 +196,6 @@ function Team() {
           		<a href="https://github.com/Diwij" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/garvit.jpg" alt="Garvit" />
-							<h5>Garvit Gopalani</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://github.com/Garvit-g" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/kartikeya.jpg" alt="Kartikeya" />
-							<h5>Kartikeya Tiwari</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/kartikeya-tiwari-8b6907218/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/kark-netizen" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/maanvi.jpg" alt="Maanvi" />
 							<h5>Maanvi Singh</h5>
 							<p><strong>Member</strong></p>
@@ -243,24 +203,11 @@ function Team() {
           		<a href="https://github.com/maanvisingh" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/mrityunjay.jpg" alt="Mrityunjay" />
-							<h5>Mrityunjay Shukla</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/mrityunjay-shukla-a066b5203/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/mrityunjayshukla411" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/naman.jpg" alt="Naman" />
 							<h5>Naman More</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/naman-more-041048214" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
           		<a href="https://github.com/namanmore" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/parth.jpg" alt="Parth" />
-							<h5>Parth Saravade</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://github.com/psychedelicorange" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Management</h2><br></br>
@@ -291,12 +238,6 @@ function Team() {
 							<h5>Nikhil Poonacha</h5>
 							<p><strong>Senior Member</strong></p>
           		<a href="http://linkedin.com/in/nikhil-poonacha-9479b5188" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/joseph.jpg" alt="Joseph" />
-							<h5>Joseph Tonio David</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/joseph-tonio-david-108137201" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/rajan.jpg" alt="Rajan" />

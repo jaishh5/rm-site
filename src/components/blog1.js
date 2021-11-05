@@ -8,7 +8,7 @@ function blog1() {
   return (
     <div>
       <Header />
-			<Container className="col-6" style={{ paddingTop: '200px', paddingBottom: '200px' }}>
+			<Container className="col-6" style={{ paddingTop: '200px', paddingBottom: '200px', fontFamily: "Montserrat" }}>
 				<Row>
 					<div>
 					<h1 style={{ fontFamily: 'Montserrat-Bold' }}>Long name for the blog</h1>
@@ -17,7 +17,7 @@ function blog1() {
 				</div>
 				</Row>
 				<Row style={{ fontFamily: 'Montserrat' }}>
-					<img style={{ width: '100%', paddingTop: '50px', paddingBottom: '80px' }} src="assets/images/blogsample.jpg" alt="Blog Sample" />					
+					<img style={{ width: '100%', paddingTop: '50px', paddingBottom: '80px' }} src="assets/images/blogs/blogsample.jpg" alt="Blog Sample" />					
 					<p>
 						<code style={{ color: 'black', backgroundColor: '#eee', border: '1px solid #999', display: 'block', padding: '20px'}}>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
